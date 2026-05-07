@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Mường Thanh Luxury Sài Gòn",
+    "address": "Quận Phú Nhuận, TP. Hồ Chí Minh",
+    "description": "Khách sạn sang trọng với kiến trúc hiện đại, cung cấp dịch vụ spa đẳng cấp và hồ bơi tầng thượng với tầm nhìn toàn cảnh thành phố.",
+    "price_per_night": 1250000,
+    "rating": 4.8,
+    "image_asset": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 2,
+    "name": "InterContinental Nha Trang",
+    "address": "Đường Trần Phú, Nha Trang",
+    "description": "Nằm dọc theo bờ biển tuyệt đẹp, khách sạn 5 sao này cung cấp các phòng nghỉ với ban công riêng nhìn ra Vịnh Nha Trang. Buffet sáng đa dạng và phong phú.",
+    "price_per_night": 3500000,
+    "rating": 4.9,
+    "image_asset": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Sapa Jade Hill Resort",
+    "address": "Thung lũng Mường Hoa, Sapa",
+    "description": "Khu nghỉ dưỡng sinh thái được thiết kế theo phong cách làng quê Châu Âu kết hợp với bản sắc Tây Bắc. Thích hợp cho các cặp đôi tìm kiếm sự bình yên.",
+    "price_per_night": 1800000,
+    "rating": 4.7,
+    "image_asset": "https://images.unsplash.com/photo-1542314831-c6a4d27ce66b?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 4,
+    "name": "Hanoi Daewoo Hotel",
+    "address": "Quận Ba Đình, Hà Nội",
+    "description": "Sở hữu kiến trúc cổ điển sang trọng, nằm cạnh hồ Thủ Lệ yên bình. Thuận tiện di chuyển đến các điểm tham quan lịch sử của thủ đô.",
+    "price_per_night": 1600000,
+    "rating": 4.5,
+    "image_asset": "https://images.unsplash.com/photo-1551882547-ff40c0d589af?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Pullman Đà Nẵng Beach",
+    "address": "Bãi biển Mỹ Khê, Đà Nẵng",
+    "description": "Khu nghỉ dưỡng với bãi biển riêng tư, các phòng có không gian mở đón gió biển. Các hoạt động thể thao dưới nước được cung cấp miễn phí cho khách lưu trú.",
+    "price_per_night": 2800000,
+    "rating": 4.6,
+    "image_asset": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?auto=format&fit=crop&w=800&q=80"
+  }
+]
