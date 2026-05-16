@@ -1,13 +1,13 @@
 [
   {
-    "id": "h01",
+    "id": 1,
     "name": "Mường Thanh Luxury",
     "city": "Đà Nẵng",
     "address": "270 Võ Nguyên Giáp, Mỹ An, Ngũ Hành Sơn, Đà Nẵng",
-    "description": "Khách sạn 5 sao sang trọng nằm sát bãi biển Mỹ Khê. Cung cấp các dịch vụ đẳng cấp quốc tế với hồ bơi vô cực và nhà hàng buffet.",
+    "description": "Khách sạn 5 sao sang trọng nằm sát bãi biển Mỹ Khê. Cung cấp các dịch vụ đẳng cấp quốc tế với không gian ngắm biển tuyệt đẹp.",
     "price_per_night": 1250000,
     "rating": 4.8,
-    "thumbnail_image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
+    "image_asset": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800",
     "gallery_images": [
       "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800",
       "https://images.unsplash.com/photo-1517840901100-8179e982acb7?w=800"
@@ -15,32 +15,36 @@
     "amenities": ["Wifi miễn phí", "Hồ bơi vô cực", "Buffet sáng", "Spa & Massage"],
     "rooms": [
       {
-        "room_id": "h01_r01",
-        "room_name": "Phòng Superior Giường Đôi",
+        "id": 101,
+        "hotel_id": 1,
+        "name": "Phòng Superior Giường Đôi",
+        "description": "Giường đôi lớn, miễn phí nước uống và ăn sáng.",
         "price": 1250000,
-        "capacity": "2 Người lớn",
+        "capacity": 2,
         "bed_type": "1 Giường đôi lớn",
         "room_size": "30 m²"
       },
       {
-        "room_id": "h01_r02",
-        "room_name": "Phòng Executive Suite Hướng Biển",
+        "id": 102,
+        "hotel_id": 1,
+        "name": "Phòng Executive Suite Hướng Biển",
+        "description": "Không gian rộng rãi, view nhìn thẳng ra biển Mỹ Khê.",
         "price": 2800000,
-        "capacity": "2 Người lớn, 1 Trẻ em",
-        "bed_type": "1 Giường King",
+        "capacity": 3,
+        "bed_type": "1 Giường King lớn",
         "room_size": "50 m²"
       }
     ]
   },
   {
-    "id": "h02",
+    "id": 2,
     "name": "Vinpearl Resort & Spa",
     "city": "Nha Trang",
     "address": "Đảo Hòn Tre, phường Vĩnh Nguyên, Nha Trang",
-    "description": "Khu nghỉ dưỡng biệt lập trên đảo Hòn Tre, mang đến trải nghiệm nghỉ dưỡng hoàn hảo với bãi biển riêng và công viên giải trí VinWonders.",
+    "description": "Khu nghỉ dưỡng biệt lập trên đảo Hòn Tre, mang đến trải nghiệm nghỉ dưỡng hoàn hảo với bãi biển riêng và công viên giải trí.",
     "price_per_night": 2100000,
     "rating": 4.9,
-    "thumbnail_image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
+    "image_asset": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800",
     "gallery_images": [
       "https://images.unsplash.com/photo-1542314831-c6a4d142104d?w=800",
       "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800"
@@ -48,53 +52,226 @@
     "amenities": ["Bãi biển riêng", "VinWonders", "Đưa đón sân bay", "Ăn 3 bữa"],
     "rooms": [
       {
-        "room_id": "h02_r01",
-        "room_name": "Phòng Deluxe Hướng Vườn",
+        "id": 201,
+        "hotel_id": 2,
+        "name": "Phòng Deluxe Hướng Vườn",
+        "description": "Phòng view sân vườn mát mẻ, yên tĩnh.",
         "price": 2100000,
-        "capacity": "2 Người lớn",
+        "capacity": 2,
         "bed_type": "2 Giường đơn",
         "room_size": "42 m²"
       },
       {
-        "room_id": "h02_r02",
-        "room_name": "Villa 3 Phòng Ngủ Hướng Biển",
+        "id": 202,
+        "hotel_id": 2,
+        "name": "Villa 3 Phòng Ngủ Hướng Biển",
+        "description": "Villa riêng biệt có hồ bơi riêng, phù hợp cho gia đình.",
         "price": 8500000,
-        "capacity": "6 Người lớn",
+        "capacity": 6,
         "bed_type": "3 Giường King",
         "room_size": "150 m²"
       }
     ]
   },
   {
-    "id": "h03",
-    "name": "InterContinental Saigon",
+    "id": 3,
+    "name": "Lotte Hotel Hanoi",
+    "city": "Hà Nội",
+    "address": "54 Liễu Giai, Cống Vị, Ba Đình, Hà Nội",
+    "description": "Nằm trên tầng cao của tòa tháp Lotte Center, cung cấp tầm nhìn toàn cảnh thành phố Hà Nội ngoạn mục.",
+    "price_per_night": 3200000,
+    "rating": 4.8,
+    "image_asset": "https://images.unsplash.com/photo-1541971875076-8f970d573be6?w=800",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800",
+      "https://images.unsplash.com/photo-1584132915807-fd1f5fbc078f?w=800"
+    ],
+    "amenities": ["Phòng Gym", "Đài quan sát", "Nhà hàng sao Michelin", "Bồn tắm nước nóng"],
+    "rooms": [
+      {
+        "id": 301,
+        "hotel_id": 3,
+        "name": "Phòng Deluxe City View",
+        "description": "Phòng sang trọng với cửa sổ kính sát trần nhìn ra thành phố.",
+        "price": 3200000,
+        "capacity": 2,
+        "bed_type": "1 Giường đôi lớn",
+        "room_size": "45 m²"
+      },
+      {
+        "id": 302,
+        "hotel_id": 3,
+        "name": "Phòng Premier Suite",
+        "description": "Phòng cao cấp dành cho thương gia với phòng khách riêng.",
+        "price": 5500000,
+        "capacity": 2,
+        "bed_type": "1 Giường King",
+        "room_size": "65 m²"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "JW Marriott Phú Quốc",
+    "city": "Phú Quốc",
+    "address": "Bãi Khem, An Thới, Phú Quốc, Kiên Giang",
+    "description": "Kiệt tác nghỉ dưỡng được thiết kế bởi Bill Bensley, mô phỏng một trường đại học giả tưởng độc đáo.",
+    "price_per_night": 7500000,
+    "rating": 5.0,
+    "image_asset": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1498503182468-3b51cbb6cb24?w=800",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800"
+    ],
+    "amenities": ["Spa cao cấp", "Bãi biển Bãi Khem", "Nhà hàng Pink Pearl", "Khu vui chơi trẻ em"],
+    "rooms": [
+      {
+        "id": 401,
+        "hotel_id": 4,
+        "name": "Emerald Bay View",
+        "description": "Phòng tiêu chuẩn có ban công lộng gió nhìn ra vịnh ngọc ngà.",
+        "price": 7500000,
+        "capacity": 2,
+        "bed_type": "1 Giường King",
+        "room_size": "53 m²"
+      },
+      {
+        "id": 402,
+        "hotel_id": 4,
+        "name": "Rue De Lamarck Suite",
+        "description": "Suite rộng rãi trên con phố mua sắm sầm uất của khu nghỉ dưỡng.",
+        "price": 12000000,
+        "capacity": 3,
+        "bed_type": "2 Giường đôi",
+        "room_size": "80 m²"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Hôtel des Arts Saigon",
     "city": "Hồ Chí Minh",
-    "address": "Góc đường Hai Bà Trưng & Lê Duẩn, Quận 1, TP. HCM",
-    "description": "Biểu tượng của sự xa hoa giữa lòng Sài Gòn. Chỉ cách nhà thờ Đức Bà và Bưu điện Trung tâm vài bước chân.",
-    "price_per_night": 3500000,
+    "address": "76-78 Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+    "description": "Khách sạn boutique mang đậm chất nghệ thuật Pháp cổ điển pha lẫn nét hiện đại giữa trung tâm Sài Gòn.",
+    "price_per_night": 4100000,
     "rating": 4.7,
-    "thumbnail_image": "https://images.unsplash.com/photo-1551882547-ff40c0dfe09a?w=800",
+    "image_asset": "https://images.unsplash.com/photo-1551882547-ff40c0dfe09a?w=800",
     "gallery_images": [
       "https://images.unsplash.com/photo-1584132967334-10e028bd69f4?w=800",
       "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=800"
     ],
-    "amenities": ["Phòng Gym 24/7", "Quầy Bar Tầng Thượng", "Nhà hàng Pháp", "Hội nghị"],
+    "amenities": ["Rooftop Bar", "Hồ bơi vô cực", "Phòng tranh", "Trà chiều"],
     "rooms": [
       {
-        "room_id": "h03_r01",
-        "room_name": "Phòng Classic",
-        "price": 3500000,
-        "capacity": "2 Người lớn",
+        "id": 501,
+        "hotel_id": 5,
+        "name": "Phòng Grand Deluxe",
+        "description": "Trang trí với các tác phẩm nghệ thuật sơn mài tinh tế.",
+        "price": 4100000,
+        "capacity": 2,
+        "bed_type": "1 Giường Queen",
+        "room_size": "30 m²"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Hôtel de la Coupole",
+    "city": "Sapa",
+    "address": "1 Hoàng Liên, Thị xã Sapa, Lào Cai",
+    "description": "Biểu tượng kiến trúc lấy cảm hứng từ thời trang Haute Couture Pháp hòa quyện với màu sắc văn hóa Tây Bắc.",
+    "price_per_night": 2900000,
+    "rating": 4.9,
+    "image_asset": "https://images.unsplash.com/photo-1621293954908-907159247fc8?w=800",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800",
+      "https://images.unsplash.com/photo-1631049035182-249067d7618e?w=800"
+    ],
+    "amenities": ["Hồ bơi nước nóng trong nhà", "Gần bến tàu hỏa Mường Hoa", "Spa", "Nhà hàng Pháp"],
+    "rooms": [
+      {
+        "id": 601,
+        "hotel_id": 6,
+        "name": "Phòng Classic",
+        "description": "Tone màu mù tạt vàng kết hợp với nghệ thuật Tây Bắc.",
+        "price": 2900000,
+        "capacity": 2,
         "bed_type": "1 Giường đôi lớn",
-        "room_size": "38 m²"
+        "room_size": "33 m²"
       },
       {
-        "room_id": "h03_r02",
-        "room_name": "Phòng Club InterContinental",
-        "price": 5200000,
-        "capacity": "2 Người lớn",
+        "id": 602,
+        "hotel_id": 6,
+        "name": "Phòng Superior Hướng Thung Lũng",
+        "description": "Tầm nhìn tuyệt đẹp ra thung lũng Mường Hoa sương mù.",
+        "price": 3800000,
+        "capacity": 2,
         "bed_type": "1 Giường King",
         "room_size": "40 m²"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Hôtel Colline",
+    "city": "Đà Lạt",
+    "address": "10 Phan Bội Châu, Phường 1, Đà Lạt",
+    "description": "Tọa lạc ngay trung tâm chợ Đà Lạt, Colline nổi bật với kiến trúc hình khối bậc thang lấy cảm hứng từ những đồi thông.",
+    "price_per_night": 1800000,
+    "rating": 4.6,
+    "image_asset": "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4?w=800",
+      "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?w=800"
+    ],
+    "amenities": ["Gần Chợ Đêm", "Phòng Gym", "Nhà hàng Á - Âu", "Bar & Lounge"],
+    "rooms": [
+      {
+        "id": 701,
+        "hotel_id": 7,
+        "name": "Phòng Superior",
+        "description": "Thiết kế hiện đại, ấm cúng phù hợp cho những ngày se lạnh.",
+        "price": 1800000,
+        "capacity": 2,
+        "bed_type": "1 Giường Queen",
+        "room_size": "25 m²"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Anantara Resort",
+    "city": "Hội An",
+    "address": "1 Phạm Hồng Thái, Cẩm Châu, Hội An, Quảng Nam",
+    "description": "Khu nghỉ dưỡng đậm nét văn hóa nép mình duyên dáng bên dòng sông Thu Bồn thơ mộng, chỉ cách phố cổ vài bước chân.",
+    "price_per_night": 4500000,
+    "rating": 4.8,
+    "image_asset": "https://images.unsplash.com/photo-1596436889106-be35e843f6a6?w=800",
+    "gallery_images": [
+      "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800",
+      "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800"
+    ],
+    "amenities": ["Du thuyền trên sông", "Lớp học nấu ăn", "Hồ bơi sân vườn", "Xe đạp miễn phí"],
+    "rooms": [
+      {
+        "id": 801,
+        "hotel_id": 8,
+        "name": "Phòng Deluxe Balcony",
+        "description": "Ban công riêng nhìn ra khu vườn nhiệt đới xanh mát.",
+        "price": 4500000,
+        "capacity": 2,
+        "bed_type": "1 Giường đôi lớn",
+        "room_size": "36 m²"
+      },
+      {
+        "id": 802,
+        "hotel_id": 8,
+        "name": "Suite River View",
+        "description": "Không gian mở hoàn toàn, thư giãn ngắm nhìn sông Thu Bồn.",
+        "price": 6200000,
+        "capacity": 2,
+        "bed_type": "1 Giường King",
+        "room_size": "42 m²"
       }
     ]
   }
